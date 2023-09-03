@@ -20,6 +20,8 @@ namespace CleanShop.Persistence
 
             services.AddScoped<IProductRepository, ProductRepository>();
 
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+
             return services;
         }
     }
